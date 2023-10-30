@@ -153,9 +153,9 @@ Registro e historial de cambios y actualizaciones del proyecto FAVALOGYC
 ### 18/9/23  
 #  
 ### **Fixed** (arreglado)
-- Se corrigió un bug en el Checkbox de ACTIVOS de *PEDIDOS*
-- Se corrigió que los pedidos tipo “Transferencia Cliente Interno”, puedan crear Zunchos
-- Se corrigió la lógica del traqueo con los artículos que poseen muchas partes, tambien se incorporo esta lógica en CONTROL AUTOMATICO.
+- Bug en el Checkbox de ACTIVOS de *PEDIDOS*
+- Los pedidos tipo “Transferencia Cliente Interno”, pueden crear Zunchos
+- Lógica del traqueo con los artículos que poseen muchas partes, tambien se incorporo esta lógica en CONTROL AUTOMATICO.
 
 ### **Breaking** (se quitó)
 - Se quitó la precarga en el alta manual para los *COMPROBANTE CON REFERENCIA FACTURA* en *ALTA MANUAL*
@@ -165,3 +165,11 @@ Registro e historial de cambios y actualizaciones del proyecto FAVALOGYC
 ## Versión Back: v08.01.02
 ### 2/10/23  
 #  
+### **Added** (Se agregó)
+- Nuevo rol: test.auxiliarvv que posee los permisos especiales para cambio de etapa de las "Venta en Verde Proveedor"
+- Nueva solapa para realizar el cambio de etapa de las "Venta en Verde Proveedor", además, se agregó servicio para cambiar la etapa POR ARTÍCULO.
+
+### **Fixed** (arreglado)
+- Bug en solapa de trazabilidad que no cargaba
+- Trazabilidad al generar número de envio de OCA y envío de Mail.
+- Bug en NOTIFICACIONES.
