@@ -173,3 +173,49 @@ Registro e historial de cambios y actualizaciones del proyecto FAVALOGYC
 - Bug en solapa de trazabilidad que no cargaba
 - Trazabilidad al generar número de envio de OCA y envío de Mail.
 - Bug en NOTIFICACIONES.
+
+---
+## Versión Front: v09.7.6.1
+## Versión Back: v09.01.05
+### 31/10/23  
+#  
+### **Added** (Se agregó)
+- Spinners en distintas partes te la aplicación:
+    - Ver pedido/ Datos de Entrega/ lapiz 
+    - Ver pedido/ CUPA/ Imprimir
+    - Crear lote/ lápiz
+    - Ver lote/ Imprimir Cupa
+    - Crear remito/ lápiz 
+    - Orden de Distribución (despachada)/ Descargar COT
+    - Orden de Distribución/ Descargar Excel
+    - Ver Orden de Distribución/ Descargar Exce
+- En Alta Manual (Reposición) se aplicó validación para que CANTIDAD no supere a STOCK CEDIS.
+- Depósito especial para ventas y reservas para los artículos VeV. Estos depósitos son el “95” y el “VV”
+- Pedidos / Comprobantes / Con Referencia de Factura / Ver Pedido, se creo un campo con el número de factura original.
+
+### **Changed** (Se cambió)
+- Estilo de los componentes deshabilitados:
+    - Ver Pedido -> Tipo y Comprobante
+    - Crear Lote y Crear Remito-> input de Fecha de entrega
+    - Crear Lote, Lotes, Crear Remito, Remitos -> Inputs de los filtros de "Fecha desde y hasta"
+    - Ver Lote / Botón Editar Lote -> Inputs de Fecha y cantidad de artículos
+    - Botón Crear remito -> Alias, Cant remitos, número desde y hasta
+    - Crear Orden Distribución/Botón Crear O.D -> Input cantidad de remitos
+    - Ver Orden de Distribución / Botón Editar -> Input Cantidad de remitos y el de fecha
+    - Artículos / Partes de artículos / Modificar Partes -> Inputs Código artículo, nombre y descripción
+    - Artículos / Códigos de barras / Seleccionar / Editar -> Código artículo y nombre
+    - Artículos / Códigos de barras / Seleccionar / Agregar->  Código artículo y nombre.
+- En EMPAQUE, se optimizó la velocidad del servicio que trae los pedidos.
+- En los pedidos de EMPAQUE de VENTA EN VERDE que contienen artículos comunes, se hizo un arreglo para seleccionar por artículo.
+-En EMPAQUE, el servicio que trae los comprobantes a programar, primero traiga los A PROGRAMAR y luego los PROGRAMADOS.
+- Pedido / abrir / Datos de entrega se puede editar los datos de entrega por artículo.
+- En Pedidos / Comprobantes / ARTÍCULOS, solo se traen artículos en etapa INICIAL - LOTE - ESTANTERIA - DÁRSENA - AVISO PROV, es decir, los ACTIVOS
+- Los botones de Imprimir CUPA y el de ELIMINAR SELEC, cambian de color luego de seleccionar un check.
+
+### **Fixed** (arreglado)
+- Bug en el orden por 'Fecha de emisión’ en EMPAQUE
+- Bug que cuando se ordena la tabla se rompía botón de notificaciones.
+- Cuando no haya stock, y se quiera agregar el artículo a CBTE CON REF FACT, no de error.
+
+### **Breaking** (se quitó)
+- En Empaque se quitaron aquellos pedidos que devuelven cantidad negativa en el campo de “cantArticulos”.
