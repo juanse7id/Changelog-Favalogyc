@@ -219,3 +219,24 @@ Registro e historial de cambios y actualizaciones del proyecto FAVALOGYC
 
 ### **Breaking** (se quitó)
 - En Empaque se quitaron aquellos pedidos que devuelven cantidad negativa en el campo de “cantArticulos”.
+
+---
+## Versión Front: v10.0.0.6 
+## Versión Back: v10.02.02
+### 29/11/23  
+#  
+### **Added** (Se agregó)
+- Pantalla de FACTURAS y servicio que trae facturas de Tango
+- Colores a distintos ESTADOS de las facturas
+- Pantalla de FACTURA DETALLE
+- Boton VER para dirigirse a FACTURA DETALLE
+- En CONTROL DE CARGA, se agrego un control de Front-end para chequear el CUPA en la lista de pantalla para avisar que se equivocó
+
+### **Changed** (Se cambió)
+- Después de programar un pedido EMPAQUE, la app no te dirija a Pedidos-> Comprobantes, se dirige a EMPAQUE nuevamente.
+- En ORDEN DE DISTRIBUCIÓN, se ve la fecha de distribución y no la de alta.
+- Se optimizó el tiempo de respuesta de los servicios en ORDEN DE DISTRIBUCIÓN. 
+
+### **Fixed** (arreglado)
+- Correcciones en las impresiones de órdenes de distribución (VER ORDEN)  
+
