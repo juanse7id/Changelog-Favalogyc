@@ -240,3 +240,19 @@ Registro e historial de cambios y actualizaciones del proyecto FAVALOGYC
 ### **Fixed** (arreglado)
 - Correcciones en las impresiones de órdenes de distribución (VER ORDEN)  
 
+---
+## Versión Front: v10.0.0.6 
+## Versión Back: v10.02.03
+### 12/12/23  
+# 
+### **Added** (Se agregó)
+- Notificacion VISTO y PROCESADO en TRAZABILIDAD
+- Validaciones para evitar acciones en pedidos que contengan NOTIFICACIONES sin ser PROCESADAS.
+
+### **Fixed** (arreglado)
+- Cantidad de registros en VER FACTURAS al filtrar
+
+### **Breaking** (se quitó)
+- Trazabilidad cada vez que se genere PDF de Orden de Distribución 
+- Trazabilidad cada vez que se genere PDF de Remito
+
