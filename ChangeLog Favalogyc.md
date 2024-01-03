@@ -256,3 +256,18 @@ Registro e historial de cambios y actualizaciones del proyecto FAVALOGYC
 - Trazabilidad cada vez que se genere PDF de Orden de Distribución 
 - Trazabilidad cada vez que se genere PDF de Remito
 
+---
+## Versión Front: v11.0.0.4 
+## Versión Back: v11.01.01
+### 08/01/24  
+# ### **Added** (Se agregó)
+- Control desde el Frontend para validar que todos los articulos estan controlados, antes de llamar al servicio del Backend, en CONTROL DE CARGA -> CONTROLAR ORDEN
+
+### **Changed** (Se cambió)
+- Tiempo de respuesta del listado de CONTROL DE CARGA
+- Tiempo de respuesta del listado de CONTROL DE SECTOR
+- Logica de traqueo del CUPA, evitando la actualización continua, en CONTROL DE CARGA -> CONTROLAR ORDEN
+- Llamado al servicio solo cuando se cargue por primera vez el listado detalle de articulos a controlar, en CONTROL DE ESTANTERIA/ DARSENA
+
+### **Fixed** (arreglado)
+- Visualizacion del spinner en CONTROL DE ESTANTERIA Y DARSENA
