@@ -259,7 +259,7 @@ Registro e historial de cambios y actualizaciones del proyecto FAVALOGYC
 ---
 ## Versión Front: v11.0.0.4 
 ## Versión Back: v11.01.01
-### 08/01/24  
+### 02/01/24  
 # 
 ### **Added** (Se agregó)
 - Control desde el Frontend para validar que todos los artículos están controlados, antes de llamar al servicio del Backend, en CONTROL DE CARGA -> CONTROLAR ORDEN
