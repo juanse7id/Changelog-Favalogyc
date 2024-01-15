@@ -1,11 +1,11 @@
 # Changelog-Favalogyc
 Registro e historial de cambios y actualizaciones del proyecto FAVALOGYC
 
-## Version Front: 01.f6.16.5
-## Version Back: 01.03.01 
+## Versión Front: 01.f6.16.5
+## Versión Back: 01.03.01 
 ### 30/3/23
 #
-### **Added** (Se agrego)
+### **Added** (Se agregó)
 - Filtro de *Etapa y Articulo* en Trazabilidad
 - Boton de *Trazabilidad* en CUPA
 - Strock de Sucursal en Alta Manual
@@ -33,11 +33,11 @@ Registro e historial de cambios y actualizaciones del proyecto FAVALOGYC
 - Se quito el *Servicio de notificaciones* en usuarios de *Empaque* 
 
 ---
-## Version Front: 02.f6.17.4 
-## Version Back: 01.03.02
+## Versión Front: 02.f6.17.4 
+## Versión Back: 01.03.02
 ### 14/4/23
 #      
-### **Added** (Se agrego)
+### **Added** (Se agregó)
 - La posibilidad de recargar componentes si fallan servicios en sección *Pedidos*
 - Snack Bar si al recargar los componentes vuelven a fallar los componentes en *Pedidos*
 - Pop-Up en *Control Darsena y Estanteria*, cuando hay errores en las ordenes
@@ -52,11 +52,11 @@ Registro e historial de cambios y actualizaciones del proyecto FAVALOGYC
 - Se bloqueó el botón de *Eliminar Selec* en *Agregar Remitos* 
 
 ---
-## Version Front: 03.f6.19.2 
-## Version Back: 03.04.01 
+## Versión Front: 03.f6.19.2 
+## Versión Back: 03.04.01 
 ### 19/5/23
 #      
-### **Added** (Se agrego)
+### **Added** (Se agregó)
 - Servicios correspondientes a la logica de *VENTA EN VERDE* en *Empaque*
 - *Punto verde* pegado a los codigos de articulo con nombre comenzado en "*FVER*" 
 - Filtro para que nunca se muestren las *VeV PROVEDOR* en *CREAR LOTE*
