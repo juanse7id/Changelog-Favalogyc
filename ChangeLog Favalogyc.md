@@ -272,3 +272,18 @@ Registro e historial de cambios y actualizaciones del proyecto FAVALOGYC
 
 ### **Fixed** (arreglado)
 - Visualización del spinner en CONTROL DE ESTANTERÍA Y DÁRSENA
+
+---
+## Versión Front: v12.0.01 
+## Versión Back: v12.01.04
+### 07/03/24  
+# 
+### **Changed** (Se cambió)
+- En CONTROL DE CARGA cuando el usuario tráquea remitos mixtos (con ZUNCHO/ sin ZUNCHO), no se realiza el traqueo automático de la TOTALIDAD de la orden al traquear un pedido con zuncho.
+- Velocidad al generar ÓRDENES DE DISTRIBUCIÓN.
+
+### **Fixed** (arreglado)
+-  Errores ortográficos. 
+- FILTROS de ÓRDENES DE DISTRIBUCIÓN.
+- SERVICIO de  IMPRIMIR ORDEN DISTRIBUCIÓN.
+- Bug al anular un remito de Comprobante Sin Referencia Factura.
