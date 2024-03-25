@@ -287,3 +287,19 @@ Registro e historial de cambios y actualizaciones del proyecto FAVALOGYC
 - FILTROS de ÓRDENES DE DISTRIBUCIÓN.
 - SERVICIO de  IMPRIMIR ORDEN DISTRIBUCIÓN.
 - Bug al anular un remito de Comprobante Sin Referencia Factura.
+
+---
+## Versión Front: v13.0.3
+## Versión Back: v13.01.04
+### 25/03/24  
+# 
+### **Added** (Se agregó)
+- Un botón de TRAZABILIDAD, para poder ver  aquellos pedidos RETIRA SUCURSAL que siguen en la sección de EMPAQUE y su estado en FAVALOGYC.
+
+### **Changed** (Se cambió)
+- En DATOS DE ENTREGA, se limitó la cantidad de caracteres del campo de TELÉFONO a 17 caracteres y se agregó una leyenda para notificar al usuario que excedió el límite.
+- En ÓRDENES DE DISTRIBUCIÓN, se realizaron modificaciones para que las ordenes del año 2099, se vean últimas en el listado (ORDER BY).
+
+### **Fixed** (arreglado)
+- En ÓRDENES DE DISTRIBUCIÓN, no se actualizaban las fechas de entrega al EDITAR.
+- En CONTROL DE ORDEN, problema de los códigos de barra duplicados.
