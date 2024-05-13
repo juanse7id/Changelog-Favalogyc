@@ -303,3 +303,19 @@ Registro e historial de cambios y actualizaciones del proyecto FAVALOGYC
 ### **Fixed** (arreglado)
 - En ÓRDENES DE DISTRIBUCIÓN, no se actualizaban las fechas de entrega al EDITAR.
 - En CONTROL DE ORDEN, problema de los códigos de barra duplicados.
+
+---
+## Versión Front: v14.0.4
+## Versión Back: v14.01.02
+### 14/05/24  
+# 
+### **Added** (Se agregó)
+- En DATOS DE ENTREGA (Pedidos-> Comprobantes-> Abrir) se creó el botón de CAMBIO DE ETAPA, con el cual se pasan los pedidos de INICIAL -> AVISO PRO -> ENTREGA PRO.
+- En DATOS DE ENTREGA, se agrego NÚMERO DE GUIA DE OCA, el mismo aparece cuando se pasa de etapa INICIAL a AVISO PRO, y se visualiza en la solapa de TRANSPORTE.
+
+### **Changed** (Se cambió)
+- Apertura de datos de entrega cuando el transporte es OCA. En los casos de ‘Venta Verde’, cuando el pedido tenga distintos proveedores, se le asignaran distintos datos de entrega al pedido.  
+
+### **Fixed** (arreglado)
+- Bug en en ORDEN DE DISTRIBUCIÓN, cuando se descargaba el Excel daba el precio actualizado, no el de la fecha en que se realizo la orden.
+- En PEDIDOS, el cartel de etapa AVISO PRO y ENTREGA PRO no se visualizaba correctamente.   
