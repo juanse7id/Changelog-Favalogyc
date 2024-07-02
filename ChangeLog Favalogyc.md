@@ -319,3 +319,34 @@ Registro e historial de cambios y actualizaciones del proyecto FAVALOGYC
 ### **Fixed** (arreglado)
 - Bug en en ORDEN DE DISTRIBUCIÓN, cuando se descargaba el Excel daba el precio actualizado, no el de la fecha en que se realizo la orden.
 - En PEDIDOS, el cartel de etapa AVISO PRO y ENTREGA PRO no se visualizaba correctamente.   
+
+---
+## Versión Front: v15.0.7 
+## Versión Back: v15.01.05
+### 06/06/24
+# 
+### **Added** (Se agregó)
+- Un botón para actualizar el estado de los pedidos con transporte OCA. Este se encuentra en PEDIDO -> DATOS DE ENTREGA, y se habilita cuando el transporte del pedido es OCA y esta color rojo, es decir DESACTUALIZADO.
+- Espacio en COMPROBANTES -> ARTÍCULOS, en CREAR LOTE, en CREAR REMITO, en CREAR ORDEN DE DISTRIBUCIÓN y en CONTROL DE CARGA, para que aquellos pedidos que tengan transporte OCA, indiquen su estado, es decir, si esta actualizado (verde) y si no está actualizado (rojo).
+
+### **Fixed** (arreglado)
+- Corrección para reingresar remitos.
+
+---
+## Versión Front: v15.0.7 
+## Versión Back: v15.01.05
+### 06/06/24
+# 
+### **Added** (Se agregó)
+- Implementación de actualizar nro guia de OCA para usuarios CEDIS. 
+
+### **Fixed** (arreglado)
+- Actualización de Nro de guia de OCA en CREAR REMITO.
+- En Órdenes de Distribución no aparecían algunos remitos.
+- Mover zunchos para los pedidos.
+- Corrección cuando zuncho tiene más de un remito, debería figurar con cantidades cero, excepto el último
+- En CREAR ORDEN DE DISTRIBUCIÓN en filtro por TIPO fallaba.
+- En REMITOS, no funcionaba el FILTRO por TIPO fallaba.
+
+
+
